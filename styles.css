@@ -1,0 +1,151 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.deletebtn {
+  cursor: pointer;
+}
+
+.info {
+  margin: 0 auto;
+  color: #fa4343;
+}
+
+@media screen and (min-width: 0px) {
+  textarea {
+    min-width: 320px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .description {
+    min-width: 320px;
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .genbun {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .genbun textarea {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .transfer {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .transfer textarea {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .result {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .result textarea {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .botton-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .text_box {
+    width: 100%;
+  }
+  .text_box p {
+    text-align: left;
+  }
+  .text_box textarea {
+    margin: 0 auto;
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    margin-bottom: 20px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 1300px;
+    background-color: #ffffff;
+  }
+  .container .description {
+    font-size: 14px;
+    color: grey;
+    text-align: left;
+  }
+  .container .description .deletebtn {
+    font-size: 20px;
+    color: #040546;
+    cursor: pointer;
+  }
+  .container .row .genbun {
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+  .container .row .genbun textarea {
+    padding: 10px;
+    width: 350px;
+    height: 400px;
+  }
+  .container .row .transfer {
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+  .container .row .transfer textarea {
+    padding: 10px;
+    width: 350px;
+    height: 400px;
+  }
+  .container .row .result {
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff;
+  }
+  .container .row .result textarea {
+    padding: 10px;
+    width: 350px;
+    height: 400px;
+  }
+  .top-container {
+    margin-bottom: 20px;
+  }
+  .button-container {
+    margin-bottom: 20px;
+  }
+  .text_box {
+    padding-top: 20px;
+  }
+  .text_box p {
+    width: 700px;
+  }
+  .text_box textarea {
+    margin: 0 auto;
+    width: 700px;
+    height: 100px;
+    border-color: grey;
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

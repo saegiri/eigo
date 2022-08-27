@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エイエイタン</title>
+    <link rel="stylesheet" href="word.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="description">
+                <p>品詞とレベルを選択して、startボタンを押してください。</p>
+            </div>
+            <div class="input">
+                <div class="hinsi_container">
+                    <span class="hinshi verb">動詞</span>
+                    <span class="hinshi noun">名詞</span>
+                </div>
+                <div class="level_container">
+                    <span class="level">level 1</span>
+                    <span class="level">level 2</span>
+                    <span class="level">level 3</span>
+                    <span class="level">level 4</span>
+                    <span class="level">level 5</span>
+                </div>
+                <button class="reset">reset</button>
+            </div>
+            <div class="start_container">
+                <button class="start">start</button>
+                <p class="now_hin"></p>
+                <p class="now_level"></p>
+                <p class="now_q_num"></p>
+            </div>
+
+            <div class="question">次の単語の説明は？</div>
+            <div>
+                <p id="qword">例　learn</p>
+            </div>
+            <div class="select_container">
+                <p class="select">to gain knowledge <==</p>
+                <p class="select">to find something</p>
+                <p class="select">to get rid of something</p>
+                <p class="select">to produce something</p>
+            </div>
+            
+            <div class="level_up">
+                <p>Level Up</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="eiei.js"></script>
+</body>
+</html>

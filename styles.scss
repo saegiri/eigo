@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.deletebtn {
+  cursor: pointer;
+}
+
+.info {
+  margin: 0 auto;
+  color: rgb(250, 67, 67);
+}
+
+@media screen and (min-width: 0px) {
+  textarea {
+    min-width: 320px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+
+  .description {
+    min-width: 320px;
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .genbun {
+    width: 100%;
+    margin-bottom: 20px;
+    textarea {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+
+  .transfer {
+    width: 100%;
+    margin-bottom: 20px;
+    textarea {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+
+  .result {
+    width: 100%;
+    margin-bottom: 20px;
+    textarea {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+
+  .botton-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .text_box {
+    width: 100%;
+    p {
+      text-align: left;
+    }
+    textarea {
+      margin: 0 auto;
+      width: 90%;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    margin-bottom: 20px;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 1300px;
+    // height: 450px;
+    background-color: #ffffff;
+
+    .description {
+      font-size: 14px;
+      color: grey;
+      text-align: left;
+      .deletebtn {
+        font-size: 20px;
+        color: rgb(4, 5, 70);
+        cursor: pointer;
+      }
+    }
+    .row {
+      .genbun {
+        width: 350px;
+        height: 400px;
+        background-color: #ffffff;
+        margin-right: 10px;
+
+        textarea {
+          padding: 10px;
+          width: 350px;
+          height: 400px;
+        }
+      }
+
+      .transfer {
+        width: 350px;
+        height: 400px;
+        background-color: #ffffff;
+        margin-right: 10px;
+
+        textarea {
+          padding: 10px;
+          width: 350px;
+          height: 400px;
+        }
+      }
+
+      .result {
+        width: 350px;
+        height: 400px;
+        background-color: #ffffff;
+
+        textarea {
+          padding: 10px;
+          width: 350px;
+          height: 400px;
+        }
+      }
+    }
+  }
+
+  .top-container {
+    margin-bottom: 20px;
+  }
+
+  .button-container {
+    margin-bottom: 20px;
+  }
+
+  .text_box {
+    padding-top: 20px;
+
+    p {
+      width: 700px;
+    }
+
+    textarea {
+      margin: 0 auto;
+      width: 700px;
+      height: 100px;
+      border-color: grey;
+      margin-bottom: 30px;
+    }
+  }
+}
